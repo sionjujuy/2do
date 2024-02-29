@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Inclusión del enlace al archivo CSS si -->
+    <link rel="stylesheet" href="estilos.css">
+    <title>ToDo</title>
+</head>
+
+<body>
+       <!-- Encabezado de la página -->
+    <h1>To Do List</h1>
+      <!-- Formulario para añadir nuevas tareas -->
+    <form action="#" id="userInput">
+        <input type="text" placeholder="Escribe tu tarea aqui..." autofocus>
+        <input type="submit" value="+" id="addBtn">
+    </form>
+     <!-- Contenedor de la lista de tareas -->
+    <div id="list" class="list-container">
+        <!--estos div los generaremos automáticamente con js, 
+            cada bloque div, será una tarea.-->
+        <!--  
+        <div class="task-container" id="1">
+           
+            <label>
+                <input type="checkbox">
+                Tarea 1
+            </label>
+            <img src="./img/cubo-de-basura.png" class="close-btn">
+        </div> 
+        -->
+
+    </div>
+     <!-- Estadísticas de la lista de tareas -->
+    <div id="stats">
+        <!--Tareas pendientes: 5 Tareas completadas: 3-->
+    </div>
+    
+    <!-- Inclusión del archivo JavaScript que gestionará la funcionalidad de la lista de tareas -->
+    <script src="toDo.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  web:
+    image: to_do_web_v01:latest
+    ports:
+      - "8080:80"
